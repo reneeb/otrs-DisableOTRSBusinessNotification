@@ -5,7 +5,7 @@ DisableOTRSBusinessNotification
 =head1 DESCRIPTION
 
 Starting with OTRS4 users will see a notification in the admin area with a hint for the new
-OTRS Business Solution (TM). And this will show up on every single page in the admin area.
+OTRS Business Solution (TM) *. And this will show up on every single page in the admin area.
 
 This notification cannot be disabled via SysConfig, so this package disables the notification.
 Reasons I want to switch the notification off:
@@ -19,6 +19,8 @@ Reasons I want to switch the notification off:
 =item * I need the space the notification takes
 
 =back
+
+* OTRS Business Solution is a trademark of OTRS Inc.
 
 =head1 REPOSITORY & BUGS
 
