@@ -14,7 +14,9 @@ sub Load {
     my $NotificationModules = $Self->{'Frontend::NotifyModule'};
     my ($Key)               = first { $_ =~ m{OTRSBusiness} }sort keys %{ $NotificationModules || {} };
 
-    delete $Self->{'Frontend::NotifyModule'}->{$Key};
+    if ( defined $Key ) {
+        delete $Self->{'Frontend::NotifyModule'}->{$Key};
+    }
 }
 
 1;
