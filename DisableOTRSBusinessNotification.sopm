@@ -2,17 +2,19 @@
 <otrs_package version="1.0">
     <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.33) -->
     <Name>DisableOTRSBusinessNotification</Name>
-    <Version>5.0.1</Version>
+    <Version>5.0.2</Version>
     <Framework>4.0.x</Framework>
     <Framework>5.0.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
     <URL>http://www.perl-services.de</URL>
-    <Description Lang="de">Schalte Benachrichtigung mit Werbung für das OTRS Business Feature aus</Description>
-    <Description Lang="en">Disable notification with adverts for OTRS Business features</Description>
+    <Description Lang="de">Schalte Benachrichtigung mit Werbung für das OTRS Business Feature aus.</Description>
+    <Description Lang="en">Disable notification with adverts for OTRS Business features.</Description>
+    <Description Lang="hu">A reklámokat tartalmazó értesítés letiltása az OTRS Business funkciónál.</Description>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Filelist>
         <File Permission="644" Location="Kernel/Config/Files/ZZZZDisableOTRSBusinessNotification.pm" />
         <File Permission="644" Location="doc/DisableOTRSBusinessNotification.json" />
         <File Permission="644" Location="doc/en/DisableOTRSBusinessNotification.pod" />
+        <File Permission="644" Location="doc/hu/DisableOTRSBusinessNotification.pod" />
     </Filelist>
 </otrs_package>
