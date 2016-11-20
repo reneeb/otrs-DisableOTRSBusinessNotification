@@ -28,4 +28,6 @@ The code for this addon and a bugtracker can be found at L<http://github.com/ren
 
 =head1 AUTHOR
 
-Renee Baecker, Perl-Services.de, C<< <otrs@perl-services.de> >>
+This module is licensed under the terms of AGPL 3.0.
+
+Author: Renee Baecker, Perl-Services.de, C<< <otrs@perl-services.de> >>
