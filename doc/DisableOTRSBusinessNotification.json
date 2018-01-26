@@ -1,6 +1,6 @@
 {
     "name": "DisableOTRSBusinessNotification",
-    "version": "6.0.2",
+    "version": "6.0.3",
     "framework": [
         "6.0.x"
     ],
