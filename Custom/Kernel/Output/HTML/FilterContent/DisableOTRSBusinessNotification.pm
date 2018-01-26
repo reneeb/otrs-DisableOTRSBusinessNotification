@@ -33,8 +33,6 @@ sub Run {
     my $Action = $ParamObject->GetParam( Param => 'Action' ) // 'AgentDashboard';
     return 1 if !$Param{Templates}->{$Action};
 
-    $Kernel::OM->Get('Kernel::System::Log')->Log( Priority => error => Message => ${ $Param{Data} } );
-
     ${ $Param{Data} } =~ s{
         <option \s+ value=\\"Timeline\\" \s+ disabled [^>]+> [^<]+ </option>
     }{}xms;
