@@ -12,7 +12,6 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Filelist>
         <File Permission="644" Location="Custom/Kernel/Output/HTML/FilterContent/DisableOTRSBusinessNotification.pm" />
-        <File Permission="644" Location="Kernel/Config/Files/DisableOTRSBusinessNotification.xml" />
         <File Permission="644" Location="Kernel/Config/Files/XML/DisableOTRSBusinessNotification.xml" />
         <File Permission="644" Location="Kernel/Config/Files/ZZZZDisableOTRSBusinessNotification.pm" />
         <File Permission="644" Location="doc/DisableOTRSBusinessNotification.json" />
